@@ -43,6 +43,26 @@ client.on('ready', () => {
 });
 
 
+  client.on("ready", async  => {
+    setInterval(function(){
+    client.channels.find('id', '659875508821164087').setName(" ");
+    client.channels.find('id', '659875508821164087').setName("W");
+    client.channels.find('id', '659875508821164087').setName("We");
+    client.channels.find('id', '659875508821164087').setName("Wel");
+    client.channels.find('id', '659875508821164087').setName("Welc");
+    client.channels.find('id', '659875508821164087').setName("Welco");
+    client.channels.find('id', '659875508821164087').setName("Welcom");
+    client.channels.find('id', '659875508821164087').setName("Welcome");
+    client.channels.find('id', '659875508821164087').setName("Welcome ");
+    client.channels.find('id', '659875508821164087').setName("Welcome C");
+    client.channels.find('id', '659875508821164087').setName("Welcome Co");
+    client.channels.find('id', '659875508821164087').setName("Welcome Com");
+    client.channels.find('id', '659875508821164087').setName("Welcome Comr");
+    client.channels.find('id', '659875508821164087').setName("Welcome Comra");
+    client.channels.find('id', '659875508821164087').setName("Welcome Comrad");
+    client.channels.find('id', '659875508821164087').setName("Welcome Comrade");
+      }, 3000);
+    });
 
 
  client.on('message', message => {
